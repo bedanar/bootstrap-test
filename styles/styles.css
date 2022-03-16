@@ -25,4 +25,10 @@ input{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px 24px 24px 24px;
+    height: 50vh;
+}
+.section__main-orgs-image{
+    background-image: url('../assets/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
