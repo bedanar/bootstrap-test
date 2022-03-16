@@ -16,9 +16,14 @@ button, select{
 }
 ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 input{
     border: none
+}
+img{
+    width: 100%;
 }
 .main_image{
     background-image: url('../assets/main.jpg');
@@ -31,4 +36,8 @@ input{
     background-image: url('../assets/main.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.news-item__image{
+    width: 200px;
+    height: 200px;
 }
