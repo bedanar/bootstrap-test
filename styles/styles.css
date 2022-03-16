@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font//Roboto-Regular.woff2');
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+button, select{
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.align-center{
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+input{
+    border: none
+}
+.main_image{
+    background-image: url('../assets/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 24px 24px 24px;
+}
